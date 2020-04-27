@@ -33,6 +33,10 @@ ul {
   width: 34px;
 }
 
+.square.highlight {
+  background: #ddd;
+}
+
 .square:focus {
   outline: none;
 }
@@ -44,6 +48,15 @@ ul {
 .game {
   display: flex;
   flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.move-list-item-selected {
+  float: left;
+  font-weight: bold;
 }
 
 .game-info {
